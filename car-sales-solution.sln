@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "account-service", "account-service\account-service.csproj", "{A60B4CEC-B49A-446B-8A66-8C75B9F7A3A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "car-service", "car-service\car-service.csproj", "{384EB43C-AFA6-4921-8504-171564DEE77E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "favorite-service", "favorite-service\favorite-service.csproj", "{F3B58DAB-576A-495D-894E-237FEEEB2C0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A60B4CEC-B49A-446B-8A66-8C75B9F7A3A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60B4CEC-B49A-446B-8A66-8C75B9F7A3A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A60B4CEC-B49A-446B-8A66-8C75B9F7A3A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A60B4CEC-B49A-446B-8A66-8C75B9F7A3A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{384EB43C-AFA6-4921-8504-171564DEE77E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{384EB43C-AFA6-4921-8504-171564DEE77E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{384EB43C-AFA6-4921-8504-171564DEE77E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{384EB43C-AFA6-4921-8504-171564DEE77E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3B58DAB-576A-495D-894E-237FEEEB2C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B58DAB-576A-495D-894E-237FEEEB2C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B58DAB-576A-495D-894E-237FEEEB2C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B58DAB-576A-495D-894E-237FEEEB2C0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

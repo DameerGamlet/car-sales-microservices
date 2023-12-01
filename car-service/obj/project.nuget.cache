@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "sDIs1viHpoI/F+8onSk3CjvGgv2HKsRxY/O7B3bCIbMQZycy7X2zOp9ykKUnn7M+clzAQd4AW+/39VGsx8HgPQ==",
+  "success": true,
+  "projectFilePath": "/mnt/sda1/03_PROJECTS/CSHARP/ASP.NET/car-sales/car-service/car-service.csproj",
+  "expectedPackageFiles": [
+    "/home/damir/.nuget/packages/microsoft.aspnetcore.openapi/7.0.13/microsoft.aspnetcore.openapi.7.0.13.nupkg.sha512",
+    "/home/damir/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/damir/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/damir/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/home/damir/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/home/damir/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/home/damir/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
