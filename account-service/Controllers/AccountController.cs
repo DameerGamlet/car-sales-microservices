@@ -27,7 +27,6 @@ public class AccountController : ControllerBase
     }
 
     [HttpPost("login")]
-    [Authorize]
     public IActionResult Login([FromBody] LoginRequest request)
     {
         return accountService.Login(request); ;
@@ -47,4 +46,6 @@ public class AccountController : ControllerBase
             return NotFound($"Account with userId {userId} not found.");
         }
     }
+
+    // удаление и обновление аккаунта будет только с JWT токена
 }

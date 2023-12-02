@@ -18,16 +18,18 @@ internal sealed class JwtProvider : IJwtProvider
         var claims = new List<Claim>
     {
         new Claim(JwtRegisteredClaimNames.Sub, account.UserId.ToString()),
-        new Claim(JwtRegisteredClaimNames.Email, account.Email),
-        new Claim(JwtRegisteredClaimNames.Name, account.Name),
+        new Claim(JwtRegisteredClaimNames.Email, account.Email)
     };
 
-        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(options.SecretKey));
+        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("MySecretKeyWithAtLeast32Characters"));
+        // var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(options.SecretKey));
         var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
         var token = new JwtSecurityToken(
-            issuer: options.Issuer,
-            audience: options.Audience,
+            issuer: "car-sale@gmail.com",
+            // issuer: options.Issuer,
+            // audience: options.Audience,
+            audience: "car-sale.com",
             claims: claims,
             expires: DateTime.Now.AddMonths(1),
             signingCredentials: creds

@@ -95,11 +95,19 @@ public class AccountService : IAccounts
 
         Account account = repository.GetAccountByEmail(email);
 
+        if (account == null || string.IsNullOrEmpty(account.Email))
+        {
+            throw new ArgumentNullException(nameof(account), "Account or email cannot be null");
+        }
+
         if (account != null && account.Password == password)
         {
-            var token = jwt.GenerateJwtToken(account);
+            log.LogInformation("JWT token is generated");
+            log.LogInformation("Email: {Email}, Password: {Password}", email, password);
 
-            return new OkObjectResult(new { Token = token, Message = $"Login successful for user {email}." });
+            string token = jwt.GenerateJwtToken(account);
+
+            return new OkObjectResult(new { Token = token, Account = account, Message = $"Login successful for user {email}." });
 
         }
         else
