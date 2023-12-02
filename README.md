@@ -4,10 +4,24 @@
 
 <u>Стек</u>: Net 7, ASP.NET 7, PostgreSQL, Docker, ...
 
-## Регистрация
+## Микросервис "Account-service"
+
+### Регистрация
 
 ![Alt text](Resources/regist_example.png)
 
-## Авторизация
+### Авторизация
 
 ![Alt text](Resources/login_example.png)
+
+## Микросервис "Car-service"
+
+123
+
+## Микросервис "Favorite-service"
+
+123
+
+## Микросервис "Api-gateway-service"
+
+123
