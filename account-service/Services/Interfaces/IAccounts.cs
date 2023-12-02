@@ -1,9 +1,11 @@
+using Microsoft.AspNetCore.Mvc;
+
 public interface IAccounts
 {
-    bool IsEmailUnique(string email);
-    IEnumerable<Account> GetAllAccounts();
-    Account GetAccountById(int id);
-    void AddAccount(Account account);
+    IActionResult SignUp(SignUpRequest request);
+    IActionResult Login(LoginRequest request);
+
+    Account GetAccountByUserId(Guid userId);
     void UpdateAccount(Account account);
     void DeleteAccount(int id);
 }

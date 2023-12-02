@@ -43,3 +43,11 @@
 /mnt/sda1/03_PROJECTS/CSHARP/ASP.NET/car-sales/account-service/obj/Debug/net7.0/account-service.pdb
 /mnt/sda1/03_PROJECTS/CSHARP/ASP.NET/car-sales/account-service/obj/Debug/net7.0/account-service.genruntimeconfig.cache
 /mnt/sda1/03_PROJECTS/CSHARP/ASP.NET/car-sales/account-service/obj/Debug/net7.0/ref/account-service.dll
+/mnt/sda1/03_PROJECTS/CSHARP/ASP.NET/car-sales/account-service/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/mnt/sda1/03_PROJECTS/CSHARP/ASP.NET/car-sales/account-service/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+/mnt/sda1/03_PROJECTS/CSHARP/ASP.NET/car-sales/account-service/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/mnt/sda1/03_PROJECTS/CSHARP/ASP.NET/car-sales/account-service/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/mnt/sda1/03_PROJECTS/CSHARP/ASP.NET/car-sales/account-service/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+/mnt/sda1/03_PROJECTS/CSHARP/ASP.NET/car-sales/account-service/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/mnt/sda1/03_PROJECTS/CSHARP/ASP.NET/car-sales/account-service/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/mnt/sda1/03_PROJECTS/CSHARP/ASP.NET/car-sales/account-service/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll

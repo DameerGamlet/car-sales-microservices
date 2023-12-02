@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-public class AccountRepository : IAccounts
+public class AccountRepository
 {
   private readonly ApplicationDbContext context;
 
@@ -25,9 +25,17 @@ public class AccountRepository : IAccounts
     }
   }
 
+  public Account GetAccountByEmail(string email) =>
+  context.Accounts.FirstOrDefault(a => a.Email == email) ??
+        throw new NotAccountFoundException("Account not found by email:" + email);
+
   public Account GetAccountById(int id) =>
       context.Accounts.FirstOrDefault(account => account.Id == id) ??
       throw new NotAccountFoundException("Account not found by id:" + id);
+
+  public Account GetAccountByUserId(Guid userId) =>
+      context.Accounts.FirstOrDefault(account => account.UserId == userId) ??
+      throw new NotAccountFoundException("Account not found by user id:" + userId);
 
   public IEnumerable<Account> GetAllAccounts() => context.Accounts.ToList();
 

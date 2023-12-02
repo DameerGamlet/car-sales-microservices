@@ -1,10 +1,10 @@
 public static class DBObject
 {
-	private static Lazy<Dictionary<int, Account>> accounts = new Lazy<Dictionary<int, Account>>(() =>
+	private static Lazy<Dictionary<int, Account>> accounts = new(() =>
 	{
 		var initialAccount = new Account
 		{
-			Id = 1,
+			Id = int.MaxValue - 1,
 			UserId = Guid.NewGuid(),
 			Email = "admin@admin.com",
 			Name = "Main Admin",
